@@ -14,6 +14,9 @@ THING.Utils.dynamicLoad([
         type: 'Map',
         //此处可更换为CityBuilder生成的地图URL链接
         url: "./cityBuilder/1/map.bundle.json",
+        resourceConfig: {
+            resourcePrefix: './'
+        },
         complete: function (event) {
             // 进行效果模板渲染
             const resourceConfig = {
