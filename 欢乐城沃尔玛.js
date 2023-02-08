@@ -6,7 +6,7 @@ var app = new THING.App({ resourceLibraryUrl: "./",
     url: './scene/1/'
 });
 THING.Utils.dynamicLoad([
-    '/uploads/wechat/138942/file/欢乐城沃尔玛/CementPlant2.css',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/css/CementPlant2.css',
     '/uploads/wechat/138942/file/欢乐城沃尔玛/css/swiper.min.css',
     '/uploads/wechat/138942/file/欢乐城沃尔玛/css/visual.css',
     '/uploads/wechat/138942/file/欢乐城沃尔玛/css/index.css',
