@@ -6,18 +6,18 @@ var app = new THING.App({ resourceLibraryUrl: "./",
     url: './scene/1/'
 });
 THING.Utils.dynamicLoad([
-    './uploads/wechat/138936/file/CementPlant2/CementPlant2.css',
-    './uploads/wechat/138942/file/欢乐城沃尔玛/css/swiper.min.css',
-    './uploads/wechat/138942/file/欢乐城沃尔玛/css/visual.css',
-    './uploads/wechat/138942/file/欢乐城沃尔玛/css/index.css',
-    './uploads/wechat/5oiR5pyJ5pyA6ZW/55qE572R5ZCN5LiN5L+h5L2g5pWw5pWw/file/天空测试2/range.css',
-    './uploads/wechat/5oiR5pyJ5pyA6ZW/55qE572R5ZCN5LiN5L+h5L2g5pWw5pWw/file/天空测试2/range.js',
-    './uploads/wechat/5oiR5pyJ5pyA6ZW/55qE572R5ZCN5LiN5L+h5L2g5pWw5pWw/file/天空测试2/index.css',
-    './uploads/wechat/138942/file/欢乐城沃尔玛/js/echarts.min.js',
-    './uploads/wechat/138942/file/欢乐城沃尔玛/js/swiper.min.js',
-    './uploads/wechat/138942/file/欢乐城沃尔玛/js/bootstrap.min.js',
-    './uploads/wechat/138942/file/欢乐城沃尔玛/js/visual.js',
-    './uploads/wechat/138942/file/欢乐城沃尔玛/js/test.js',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/CementPlant2.css',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/css/swiper.min.css',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/css/visual.css',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/css/index.css',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/css/range.css',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/js/range.js',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/css/index1.css',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/js/echarts.min.js',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/js/swiper.min.js',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/js/bootstrap.min.js',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/js/visual.js',
+    '/uploads/wechat/138942/file/欢乐城沃尔玛/js/test.js',
 
 
 
