@@ -8,6 +8,9 @@ THING.Utils.dynamicLoad(['./source/uearth.min.js'], function () {
         type: 'Map',
         // 地图场景名：新建城市117
         url: "./cityBuilder/1/map.bundle.json",
+        resourceConfig : {
+            resourcePrefix: './'
+        },
         complete: function (event) {
             console.log(event.object.userLayers.length);
         }
