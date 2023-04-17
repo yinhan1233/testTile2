@@ -33,6 +33,9 @@
 
 console.log();
 
+
+console.log();
+
 // 创建线标记
 var app = new THING.App();
 app.background = [0, 0, 0];
