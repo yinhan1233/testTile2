@@ -1,0 +1,230 @@
+/* header part 样式 */
+header {
+    width: 100vw;
+    height: 9vh;
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 1px red solid;
+}
+
+header .logo {
+    flex: 1;
+    border: 1px red solid;
+}
+
+header .header-title {
+    flex: 3;
+    border: 1px red solid;
+}
+
+header .header-right {
+    flex: 1;
+    border: 1px red solid;
+}
+
+/* bottom part 样式 */
+
+footer{
+    width: calc(100vw - 40px);
+    height: 35vh;
+    display: flex;
+    margin: 0 auto;
+    z-index: 9999;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    border: 1px red solid;
+}
+.bottom-view{
+    flex: 4;
+    border: 1px red solid;
+    margin: 2px 5px;
+}
+
+/* 单击时弹框的样式 */
+.pop-over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    font-size: 15px;
+    color: white;
+    line-height: 40px;
+    z-index: 10;
+    display: none;
+    border: 1px red solid;
+}
+.info-title{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px red solid;
+}
+.info-content{
+    border: 1px red solid;
+}
+.info-content ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    text-align: center;
+}
+.info-content ul li{
+    flex: 1;
+    display: flex;   
+}
+.info-content ul li span{
+    color: #fff;
+    flex: 0.5;
+}
+.info-content ul li p{
+    flex: 1.5;
+     color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 40px;
+    /* background-color: cornflowerblue; */
+    background: url('title_bg.png') center center no-repeat;
+    background-size: 110% 100%;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 10;
+    display: none;
+
+}
+
+
+/* 侧边设备信息列表样式--------------------------------------------------- */
+.deviceInfoView {
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    flex-direction: column;
+    animation: slideInLeft 2s linear;
+    height: calc(55vh - 50px);
+    width: 20.2vw;
+    z-index: 9999;
+    position: fixed;
+    top: 10vh;
+    right: 30px;
+}
+
+@keyframes slideInLeft {
+    0% {
+        right: -100%;
+    }
+
+    40% {
+        right: -20%;
+    }
+
+    80% {
+        right: 10px;
+    }
+
+    100% {
+        right: 30px;
+    }
+}
+
+
+.deviceInfoView .deviceInfo-header {
+    height: 2.8rem;
+    /* 40px */
+    background: url('infoTitle_bg.png') center center no-repeat;
+    cursor: pointer;
+    background-size: 100% 100%;
+    color: white;
+    letter-spacing: 1px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.deviceInfoView .deviceInfo-no {
+    background: url('title_bg.png') center center no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    height: 2.5rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.deviceInfoView .deviceInfo-content {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 5.5rem);
+    background: url('infoContent_bg.png') center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.deviceInfoView .deviceInfo-content ul {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: #7ED4FF;
+    height: 100%;
+    font-size: 0.9rem;
+    padding: 0 1.5rem;
+}
+
+.deviceInfoView .deviceInfo-content .content-list li {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px;
+    border-bottom: 1.5px solid;
+    border-image: url('decorLine_h.png');
+    border-image-slice: 1;
+}
+
+.text-gradient {
+    background: linear-gradient(to bottom, white 60%, #7ED4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
