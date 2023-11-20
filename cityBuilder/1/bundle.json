@@ -1,1 +1,0 @@
-{"author":"138942","dependencies":{},"description":"The earth project","external":{"encrypt-files":["map.bundle.json","manifest.json","^model/[^]*(.json$|.gltf$)"],"preview":"preview.png","source-from":"citybuilder2.4.6","thingjs-x":{"plugin-type":"theme_map","theme":"新建城市117"}},"id":"1009432","main":"map.bundle.json","name":"新建城市117","type":"map","version":"1.1.0"}
