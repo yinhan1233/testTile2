@@ -68,7 +68,7 @@ function shelvesAdd(position, object) {
     var sel = app.query(reg);//查找到此货架上的所有物料盒
     var shelves = app.query(object.name)[0];
     for (var k = 0; k < sel.length; k++) {//将每一个物料盒绑定在货架的子元素架板上
-        debugger;
+        // debugger;
         // var nodesix = shelves.subNodes[6];
         // nodesix.add(sel[k]);
         shelves.subNodes.forEach(obj => {
