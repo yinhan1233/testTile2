@@ -327,7 +327,7 @@ app.background = [0, 0, 0];
 // 引用效果模板组件脚本
 THING.Utils.dynamicLoad([
     'https://www.thingjs.com/static/plugins/thing.effect.min/1.5.6/EffectThemeControl.min.js',
-    '/static/resource/ThingJS/4100/frame.js'
+    'https://www.thingjs.com/static/resource/ThingJS/4100/frame.js'
 ], function () {
     app.on('load', function (ev) {
        app.level.change(ev.campus);
