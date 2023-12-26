@@ -288,7 +288,7 @@ html {
   background-image: url("../image/2d.png");
 }
 .btn-3d {
-  background-image: url("/file/image/2d.png");
+  background-image: url("../image/3d.png");
   display: none;
 }
 .btn-skybox {

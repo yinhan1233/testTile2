@@ -57,26 +57,17 @@ var mapConfig = {
  */
 app.on("load", function (ev) {
   THING.Utils.dynamicLoad(
-    // [
-    //   "/static/css/index.css", // 功能按钮样式文件
-    //   "/static/css/font-awesome.min.css", // 功能按钮字体样式
-    //   "/static/css/myAlert.css", // 弹出框样式
-    //   "/static/css/sweetalert2.min.css", // 弹出框样式
-    //   "/static/js/sweetalert2.all.min.js", // 弹出框脚本
-    //   "/static/js/myAlert.js", // 弹出框脚本
-    //   "/static/js/posTransform.js", // 不同坐标系经纬度互相转换的脚本文件
-    //   "/static/js/expandFloor.js", // 楼层展开脚本
-    // ],
     [
-      "/file/css/index.css", // 功能按钮样式文件
-      "/static/css/font-awesome.min.css", // 功能按钮字体样式
-      "/static/css/myAlert.css", // 弹出框样式
-      "/static/css/sweetalert2.min.css", // 弹出框样式
-      "/static/js/sweetalert2.all.min.js", // 弹出框脚本
-      "/static/js/myAlert.js", // 弹出框脚本
-      "/static/js/posTransform.js", // 不同坐标系经纬度互相转换的脚本文件
-      "/static/js/expandFloor.js", // 楼层展开脚本
+      "./static/css/index.css", // 功能按钮样式文件
+      "./static/css/font-awesome.min.css", // 功能按钮字体样式
+      "./static/css/myAlert.css", // 弹出框样式
+      "./static/css/sweetalert2.min.css", // 弹出框样式
+      "./static/js/sweetalert2.all.min.js", // 弹出框脚本
+      "./static/js/myAlert.js", // 弹出框脚本
+      "./static/js/posTransform.js", // 不同坐标系经纬度互相转换的脚本文件
+      "./static/js/expandFloor.js", // 楼层展开脚本
     ],
+
     function () {
       skyBox = app.skyBox; // 获取天空盒
       app.level.change(ev.campus); // 切换至园区层级
