@@ -5,8 +5,8 @@ document.title = "党校_test";
  */
 // 引入文件
 THING.Utils.dynamicLoad(
-  // ["/static/utils/request.js", "/static/utils/scenePreview.js"],
-  ["/file/utils/request.js", "./file/utils/scenePreview.js"],
+  ["./static/utils/request.js", "./static/utils/scenePreview.js"],
+  // ["/file/utils/request.js", "./file/utils/scenePreview.js"],
   function () {
     // 加载场景后执行
     app.on("load", function (ev) {

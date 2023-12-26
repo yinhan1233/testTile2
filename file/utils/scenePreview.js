@@ -29,7 +29,7 @@ var building = null; // 建筑
 var restartTime = 5000; // 自动旋转停止后重启时间间隔
 var rotateTimer = null; // 自动旋转计时器
 var filePath =
-  "/uploads/wechat/5oiR5pyJ5pyA6ZW/55qE572R5ZCN5LiN5L+h5L2g5pWw5pWw/file/ScenePreview/";
+  "./uploads/wechat/5oiR5pyJ5pyA6ZW/55qE572R5ZCN5LiN5L+h5L2g5pWw5pWw/file/ScenePreview/";
 // 需要用到的外部文件
 // var fileArr = [
 //   "/static/css/index.js", // 功能按钮样式文件
@@ -58,15 +58,15 @@ var mapConfig = {
 app.on("load", function (ev) {
   THING.Utils.dynamicLoad(
     [
-      // "/static/css/index.css", // 功能按钮样式文件
-      "./file/css/index.css", // 功能按钮样式文件
-      "/static/css/font-awesome.min.css", // 功能按钮字体样式
-      "/static/css/myAlert.css", // 弹出框样式
-      "/static/css/sweetalert2.min.css", // 弹出框样式
-      "/static/js/sweetalert2.all.min.js", // 弹出框脚本
-      "/static/js/myAlert.js", // 弹出框脚本
-      "/static/js/posTransform.js", // 不同坐标系经纬度互相转换的脚本文件
-      "/static/js/expandFloor.js", // 楼层展开脚本
+      "./static/css/index.css", // 功能按钮样式文件
+      // "./file/css/index.css", // 功能按钮样式文件
+      "./static/css/font-awesome.min.css", // 功能按钮字体样式
+      "./static/css/myAlert.css", // 弹出框样式
+      "./static/css/sweetalert2.min.css", // 弹出框样式
+      "./static/js/sweetalert2.all.min.js", // 弹出框脚本
+      "./static/js/myAlert.js", // 弹出框脚本
+      "./static/js/posTransform.js", // 不同坐标系经纬度互相转换的脚本文件
+      "./static/js/expandFloor.js", // 楼层展开脚本
     ],
     function () {
       skyBox = app.skyBox; // 获取天空盒
