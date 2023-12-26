@@ -58,7 +58,8 @@ var mapConfig = {
 app.on("load", function (ev) {
   THING.Utils.dynamicLoad(
     [
-      "/static/css/index.css", // 功能按钮样式文件
+      // "/static/css/index.css", // 功能按钮样式文件
+      "/file/css/index.css", // 功能按钮样式文件
       "/static/css/font-awesome.min.css", // 功能按钮字体样式
       "/static/css/myAlert.css", // 弹出框样式
       "/static/css/sweetalert2.min.css", // 弹出框样式
