@@ -1,0 +1,9 @@
+{
+    "name": "示例开发包",
+    "type": "offlineDev",
+    "version": "2.1.6",
+    "id": "91B5EC2285F4ACEDC41868CAC2BA0F7F",
+    "author": 138942,
+    "description": "ThingJS_Online_Offline_dev",
+    "source_from": "ThingJS_Online"
+}
