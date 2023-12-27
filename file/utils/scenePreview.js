@@ -342,7 +342,7 @@ function registerEvent() {
     );
 
   // 地图背景li标签添加点击事件
-  $("#mapBg .control-menu-pane li").on("click", function (ev) {
+  $("#mapBg .control-menu-pane li").off('click').on("click", function (ev) {
     //ev.stopPropagation();
     if ($(this).hasClass("selected")) return;
     stopRotate();
@@ -840,7 +840,7 @@ function destoryMiniMap() {
 function showMapBg(attribution, url) {
   if (mapBgCtrl == null) {
     THING.Utils.dynamicLoadJS(
-      ["https://www.thingjs.com/uearth/uearth.min.js"],
+      ["./uearth.min.js"],
       function () {
         //创建一个地图实例
         mapBgCtrl = app.create({
