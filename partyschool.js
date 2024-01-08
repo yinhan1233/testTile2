@@ -19,7 +19,7 @@ THING.Utils.dynamicLoad(
     });
   }
 );
-
+console.log('_____________________________________');
 var app = new THING.App({
   // 引用场景
   url: "/api/scene/20210616095248956300069", // 场景地址
